@@ -10,12 +10,10 @@ function sum(){
     })
     console.log(sum);
     document.querySelector("table").innerHTML+=`
-    <table>
-            <tr>
+            <tr id="ans">
                 <td></td>
                 <td>${sum}</td>
             </tr>
-        </table>
     `
 }
 getSumBtn.addEventListener("click", sum)
